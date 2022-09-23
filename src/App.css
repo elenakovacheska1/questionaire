@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 50px;
+  height: 90vh;
+  width: 90vw;
+  margin: 5vh 5vw;
+
+}
+
+.start-button {
+  align-self: center;
+  border-radius: 50px;
+  border: none;
+  padding: 30px;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.start-button:hover {
+  background-color: gray;
+  color: white;
+}
+
+.answer {
+  padding: 5px;
+  margin-right: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.answer:hover, .clicked{
+  background-color: rgb(93, 43, 93);
+  color: white;
+}
+
+.wrong {
+  background-color: red;
+}
+
+.correct {
+  background-color: green;
+}
+
+.qa-container{
+  padding: 50px;
+}
+
+.question {
+  margin: 10px 0px;
+  color: rgb(45, 44, 44);
+}
